@@ -34,6 +34,6 @@ io.on("connection", (socket) => {
 // connect to DB and start server
 connectDB().then(() => {
   server.listen(PORT, () => {
-    console.log(`SYNK US backend running on http://127.0.0.1:${PORT}`);
+    console.log(`SynkUs backend running on http://127.0.0.1:${PORT}`);
   });
 });
