@@ -20,3 +20,4 @@ export const refreshSpotifyAccessToken = async (refreshToken) => {
     throw err;
   }
 };
+export default refreshSpotifyAccessToken;
